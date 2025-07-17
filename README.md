@@ -1,191 +1,41 @@
-# Projektdokumentation – M158 LB2 <br>WordPress-Migration
-
-## Übersicht
-# Projektdokumentation – Webserver-Projekt
-
-Diese Dokumentation ist nach den Aufgaben (1–14) gegliedert. Jede Aufgabe ist in drei Phasen unterteilt. Bitte tragen Sie Ihre Ergebnisse jeweils unter den entsprechenden Abschnitten ein.
+# Projektdokumentation – M158 LB2  
+## WordPress-Webserver-Migration  
+**Tomas Brencic – Klasse PE23f**
 
 ---
 
 ## Aufgabe 1 – Projektplan erstellen
 
-### Stufe 1 - 3
+### ✅ Stufe 1 – Strukturierter Projektplan (Mermaid-Diagramm)
 
-Fügen Sie hier Ihre Ergebnisse ein
+```mermaid
+gantt
+    title Projektplan WordPress-Migration – Tomas Brencic
+    dateFormat  DD.MM.YYYY
+    section Vorbereitung
+    Idee & Setup vorbereiten     :a1, 01.07.2025, 2d
+    Git-Repo + Projektstruktur   :a2, after a1, 0.5d
+    section Infrastruktur
+    Webserver einrichten (Apache, PHP, MySQL) :a3, 03.07.2025, 1d
+    WordPress migrieren          :a4, after a3, 1d
+    section Dienste & Sicherheit
+    SSL aktivieren + Weiterleitung    :a5, 07.07.2025, 1d
+    FTP + Benutzerverwaltung           :a6, after a5, 0.5d
+    Backups automatisieren 🟩          :milestone, a6, 08.07.2025
+    section Tests & Feinschliff
+    Funktionstests durchführen   :a7, 08.07.2025, 0.5d
+    Docker + CI/CD ergänzen      :a8, 09.07.2025, 1d
+    Doku finalisieren + abgeben 🟦 :milestone, a8, 10.07.2025
+```
 
----
+### ✅ Stufe 2 – Schweizer Datumsformat + wöchentliche Gliederung
+- Alle Daten sind im Format `DD.MM.YYYY`
+- Die Abschnitte sind: Vorbereitung, Infrastruktur, Dienste & Sicherheit, Feinschliff
 
-## Aufgabe 2 – Architekturdiagramm erstellen
-
-### Stufe 1 - 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 3 – AWS-Umgebung einrichten
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 4 – DNS-Konfiguration
-
-Ändern Sie die Stufe, für die Sie sich entschieden haben, selbst.
-
-### Stufe ?
-
-Fügen Sie hier Ihre Ergebnisse ein
+### ✅ Stufe 3 – Individuelle Farben & Meilensteine
+- 🟩 für **Backups**
+- 🟦 für **Abgabe**
 
 ---
 
-## Aufgabe 5 – Webserver konfigurieren
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 6 – PHP einrichten
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 7 – MySQL/MariaDB aufsetzen
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 8 – Web-Datenbanktool (phpMyAdmin/Adminer)
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 9 – FTP-Zugang einrichten
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 10 – WordPress migrieren
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 11 – Backup-Konzept umsetzen
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 12 – Testing der Webapplikation
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 13 – Deployment automatisieren
-
-### Stufe 1
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 2
-
-Fügen Sie hier Ihre Ergebnisse ein
-
-### Stufe 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
-## Aufgabe 14 – Docker verwenden
-
-### Stufe 1 - 3
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
+_Fortsetzung folgt mit Aufgabe 2..._
